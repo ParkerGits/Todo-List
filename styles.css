@@ -1,0 +1,64 @@
+body {
+  font-family: Helvetica;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+button { /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input {
+  padding: 8px;
+}
+#editButton, #deleteButton, #doneEditingButton {
+  margin: 10px 10px 10px 10px;
+}
+
+#clearAllButton {
+  background-color: red;
+}
+
+#clearAllButton:hover {
+  background-color: #b00000;
+}
+
+#deleteButton {
+  background-color: #ff5757;
+}
+
+#deleteButton:hover {
+  background-color: #9c3636;
+}
+
+#submitButton, #doneEditingButton {
+  background-color: #30ff53;
+}
+
+#submitButton:hover, #doneEditingButton:hover {
+  background-color: #22a838;
+}
+
+#editButton {
+  background-color: #00c3ff;
+}
+
+#editButton:hover {
+  background-color: #007ba1;
+}
+
+#taskWrapper {
+  background-color: #c4c4c4;
+  display: inline-block;
+  word-wrap: break-word;
+  margin: 10px;
+  padding: 10px;
+}
